@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0.495);
+}
+
+/* header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin:60px;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    cursor:pointer;
+    margin-left: 200px;
+    font-weight: 600;
+}
+
+.header .icons{
+    font-size: 1.5rem;
+    cursor: pointer;
+    /* border:2px solid; */
+    display: flex;
+    gap:40px;
+}
+
+/* hero */
+
+.hero{
+    padding:70px;
+    display:flex;
+}
+
+.hero .written{
+    margin:20px;
+}
+
+#header{
+    font-size: 3rem;
+    width:350px;
+}
+
+.hero p{
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+
+#para{
+    width:300px;
+}
+
+button{
+    height: 40px;
+    width:150px;
+    margin-left:20px;
+    color:#fff;
+    background-color: #000;
+    border-radius: 0 40px 40px 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.image{
+    padding-left: 300px;
+    display: flex;
+    width:200px;
+    height: 200px;
+    gap:40px;
+}
+
+.i{
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.449);
+    height: 270px;
+}
+
+.ione h3{
+    margin-bottom:10px;
+}
+
+.ione p{
+    font-size:1rem;
+    opacity:0.7;
+}
+
+#rupee{
+    margin-top:10px;
+}
+
+

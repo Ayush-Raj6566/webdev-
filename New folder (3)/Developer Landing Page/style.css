@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0.611);
+    border: none !important;
+}
+
+.big{
+    margin: 0 300px;
+    height: 100%;
+    padding: 10px; 
+    width: 910px !important;
+}
+
+.big .headimage{
+    max-height: 500px;
+    width: 900px;
+    position: relative;
+}
+
+.big .headimage img{
+    height: 500px;
+    width: 900px;
+    display: block;
+}
+
+.big .headimage h2{
+    color: #fff;
+    position:absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 200;
+    margin-top: 50px;
+    width: 600px;
+}
+
+.work h1{
+    width: 900px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+.work h1 .you{
+    font-size: 5rem;
+    margin-left: 5px;
+    margin-bottom: 25px;
+}
+
+.menu{
+    height: 400px;
+    width:900px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+    background-color: #fff;
+}
+
+.menu1{
+    margin:10px;
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px grey;
+    border: none;
+}
+
+.menu #web img{
+    width:199.8px;
+    border-radius: 10px 10px 0 0;
+}
+
+.menu .heading{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    margin:5px 0 5px 5px;
+    font-weight: 300;
+}
+
+.menu .para{
+    margin:10px 5px 0 5px;
+}
+
+.menu #app img{
+    width:200px;
+}
+
+.menu #ui img{
+    width:200px;
+}
+
+.connect{
+    height: 300px;
+    width:900px;
+    display:flex;
+}
+
+.connect .contact{
+    margin:0;
+    padding:15px;
+    background-color: rgba(9, 74, 9, 0.771);
+    color:#fff;
+}
+
+.connect .contact h3{
+    margin:10px 0 10px 0;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: 400;
+    width: 350px;
+}
+
+.connect .about{
+    margin:0;
+    padding:15px;
+    background-color: rgba(101, 13, 13, 0.779);
+    color:#fff;
+}
+
+.connect .about h3{
+    margin:10px 0 10px 0;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+

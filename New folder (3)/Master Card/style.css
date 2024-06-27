@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Big box */
+.big{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Small Box */
+.small{
+    height: 240px;
+    width: 400px;
+    background-color: black;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+/* Image wala box */
+.small .image{
+    margin: 30px;
+    color: black;
+    border: 1px solid black;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.small .image img{
+    width: 80px;
+    height: 50px;
+}
+
+.small .image .image2{
+    width:60px;
+    height: 40px;
+    margin-left: 80px;
+}
+
+/* Number wala dabba */
+.number{
+    border:1px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    color:white;
+    font-family: sans-serif;
+}
+
+.number p{
+    font-size: small;
+}
+
+/* Naam wala dabba */
+.name{
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-top:40px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    font-family: sans-serif;
+}
